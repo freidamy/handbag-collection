@@ -1,0 +1,58 @@
+.handbag-row {
+  transition: background-color 0.3s;
+}
+
+/* Removed the hover effect that was here */
+
+/* Styling for luxury tier handbags (over $10,000) */
+.luxury-tier {
+  background-color: #faf3e0;
+  font-weight: 500;
+}
+
+.luxury-tier .price-cell::before {
+  content: "💎";
+  margin-right: 5px;
+}
+
+/* Styling for heritage brands (before 1990) */
+.heritage-brand {
+  border-left: 4px solid #d4af37;
+}
+
+.price-cell {
+  font-weight: bold;
+  color: #32612d;
+}
+
+.description-cell {
+  max-width: 300px;
+  font-style: italic;
+  color: #666;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #333;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+thead tr {
+  background-color: #9c27b0;
+  color: white;
+}
